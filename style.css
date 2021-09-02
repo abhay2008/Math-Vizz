@@ -1,0 +1,44 @@
+body {
+  padding: 7px;
+}
+html {
+  background-repeat: round;
+  background-image: url('./rainbow.png');
+  background-size: 100vw 110vh;
+  padding: 2px;
+}
+canvas {
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+}
+button {
+  width: 100px;
+  margin: 7px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border: 1px solid rgba(21, 21, 21, 0.826);
+  border-radius: 4px;
+}
+button:hover {
+  background-color: rgba(0, 76, 255, 0.1);
+  border: 1px solid rgba(40, 252, 174, 0.76);
+}
+input {
+  margin: 7px;
+  width: 160px;
+  background-color: rgba(5, 19, 55, 0.223);
+  border-color: rgba(0, 0, 0, 0.2);
+  outline: none;
+  border-radius: 4px;
+  font-weight: 600;
+}
+::placeholder {
+  color: rgba(0, 0, 0, 0.5);
+}
+select {
+  margin: 5px;
+  width: 100px;
+  background-color: rgba(11, 11, 11, 0.1);
+  border-radius: 4px;
+  border-color: rgba(0, 0, 0, 0.3)
+}
